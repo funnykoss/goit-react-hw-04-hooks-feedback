@@ -1,0 +1,30 @@
+.buttonsList {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.buttonItems:not(:last-child) {
+  margin-right: 5px;
+}
+
+.buttonItems {
+  list-style: none;
+}
+
+.buttonGood:focus,
+.buttonGood:hover {
+  background-color: rgb(84, 248, 8);
+  color: rgb(14, 13, 13);
+}
+
+.buttonNeutral:focus,
+.buttonNeutral:hover {
+  background-color: rgb(2, 156, 245);
+  color: rgb(0, 0, 0);
+}
+
+.buttonBad:focus,
+.buttonBad:hover {
+  background-color: rgb(252, 6, 6);
+  color: rgb(255, 255, 255);
+}
